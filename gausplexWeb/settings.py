@@ -18,7 +18,7 @@ from .core.staticfiles import *
 from .core.mediafiles import *
 from .core.mailserver import *
 
-settings = get_settings
+settings = get_settings()
 # Build paths inside the project like this: os.path.join(BASE_DIR, ...)
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Quick-start development settings - unsuitable for production
@@ -41,7 +41,7 @@ ROOT_URLCONF = 'gausplexWeb.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [os.path.join(BASE_DIR, gausplexWeb/templates)],
+        'DIRS': [os.path.join(BASE_DIR, 'gausplexWeb/templates')],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

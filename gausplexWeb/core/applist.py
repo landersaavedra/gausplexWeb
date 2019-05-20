@@ -19,7 +19,7 @@ LOCAL_APPS = (
 )
 
 THIRD_PARTY_APPS = (
-    #'solo',
+    'solo',
 )
 
 

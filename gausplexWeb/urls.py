@@ -19,12 +19,12 @@ from .core.json_settings import get_settings
 from django.conf.urls.static import static
 from django.conf import settings
 
-json_settings = get_settings
+settings_json = get_settings()
 
 urlpatterns = [
     path(r'admin/', admin.site.urls),
     path(r'^', include('gausplexWeb.apps.web.urls'))
 ]
 
-if json_settings['DEBUG']:
+if settings_json["DEBUG"]:
     urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
