@@ -23,7 +23,7 @@ settings_json = get_settings()
 
 urlpatterns = [
     path(r'admin/', admin.site.urls),
-    path(r'^', include('gausplexWeb.apps.web.urls'))
+    path('', include('gausplexWeb.apps.web.urls'))
 ]
 
 if settings_json["DEBUG"]:

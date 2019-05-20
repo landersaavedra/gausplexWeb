@@ -14,7 +14,7 @@ DJANGO_APPS = (
 
 LOCAL_APPS = (
     #'gausplexWeb.apps.flow',
-    'gausplexWeb.apps.website',
+    'gausplexWeb.apps.web',
     #'gausplexWeb.apps.security',
 )
 
