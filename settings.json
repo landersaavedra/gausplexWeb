@@ -4,8 +4,12 @@
 "SECRET_KEY": "slv$qm)s66%179sn$el)+kg4t5%mzb2rn=tu*y)^qiu)!8z3ld",
 "DB":{
   "default": {
-    "ENGINE": "django.db.backends.sqlite3",
-    "NAME": "os.path.join(BASE_DIR,'db.sqlite3')"
+    "ENGINE": "django.db.backends.postgresql",
+    "HOST": "ec2-23-21-91-183.compute-1.amazonaws.com",
+    "NAME": "d7jba66r21mi0i",
+    "USER": "tkrlgxokmbesmj",
+    "PASSWORD": "edf18501d8cf421337c8a2abb58ea3c0d81949d0c57e30824237bb20d37ee0d0",
+    "PORT": 5432
   }
 },
 
