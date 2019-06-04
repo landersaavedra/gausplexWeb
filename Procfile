@@ -1,1 +1,1 @@
-web gunicorn  gausplexWeb.wsgi --log-file -
+web gunicorn  webgausplex.wsgi --log-file -
