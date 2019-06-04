@@ -17,8 +17,8 @@ LOCAL_APPS = (
     #'gausplexWeb.apps.flow',
     'gausplexWeb.apps.web',
     #'gausplexWeb.apps.security',
-    'web.apps.WebConfig',
     
+
 )
 
 THIRD_PARTY_APPS = (
