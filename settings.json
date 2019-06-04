@@ -29,11 +29,11 @@
 ],
 
 "SECURITY":{
-  "ALLOWED_HOSTS":["example.herokuapp.com", "localhost"]
+  "ALLOWED_HOSTS":["webgausplex.herokuapp.com", "localhost"]
   },
 
   "DEBUG": false,
-  "URL_SERVER": "http://localhost:8000",
+  "URL_SERVER": "webgausplex.herokuapp.com",
   "DEFAULT_URL_USERPROFILE": "/static/img/user-default.jpg",
   "EMAIL": {
   "EMAIL_USE_TLS": true,
