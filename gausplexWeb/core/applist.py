@@ -11,6 +11,7 @@ DJANGO_APPS = (
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django_extensions',
+    'web.apps.WebConfig',
 )
 
 LOCAL_APPS = (
