@@ -29,7 +29,7 @@
 ],
 
 "SECURITY":{
-  "ALLOWED_HOSTS":["localhost"]
+  "ALLOWED_HOSTS":["example.herokuapp.com", "localhost"]
   },
 
   "DEBUG": false,
